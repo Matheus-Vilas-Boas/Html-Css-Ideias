@@ -11,6 +11,32 @@ body
     background-size: cover;
 }
 
+nav{
+    margin-top:20px ;
+    margin-left: 30px;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffff;
+    text-align: start;
+    word-spacing: 0.2em;
+}
+.links
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: start;
+}
+.links a
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
 main
 {
     background-color: rgba(0, 0, 0, 0.479);
@@ -38,8 +64,9 @@ main
 {
     background: none;
     border: none;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+    font-size: 1.1em;
     outline: none;
     width: 100%;
     border-bottom: 1px solid #ffff;
@@ -47,6 +74,7 @@ main
 }
 .passwd
 {
+    margin-top: 30px;
     font-size: 1em;
     font-weight: 300;
     font-family: 'Source Sans Pro', sans-serif;
@@ -58,10 +86,42 @@ main
 {
     background: none;
     border: none;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+    font-size: 1.1em;
     outline: none;
     width: 100%;
     border-bottom: 1px solid #ffff;
     color: #ffff;
+}
+.login
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.login button
+{
+    height: 45px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: 1px #ffff solid;
+    border-radius: 1.8px;
+    color: #ffff;
+}
+.forgotPasswd
+{
+    text-align: center;
+}
+.forgotPasswd a
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #ffff;
+    text-decoration: none;
 }
