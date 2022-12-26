@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap');
+
 *
 {
     padding: 0;
@@ -12,11 +14,54 @@ body
 main
 {
     background-color: rgba(0, 0, 0, 0.479);
-    width: 250px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
     position: absolute;
     margin-left: 50%;
-    margin-top: 20%;
-    transform: translate(-50%, -20%);
+    margin-top: 5%;
+    transform: translate(-50%);
+}
+
+.names
+{   
+    margin-top:50px ;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffff;
+    text-align: start;
+    word-spacing: 0.2em;
+}
+
+.names input[type="text"]
+{
+    background: none;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid #ffff;
+    color: #ffff;
+}
+.passwd
+{
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffff;
+    text-align: start;
+    word-spacing: 0.4em;
+}
+.passwd input[type="password"]
+{
+    background: none;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid #ffff;
+    color: #ffff;
 }
