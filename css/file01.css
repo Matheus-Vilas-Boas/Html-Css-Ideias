@@ -1,0 +1,22 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url("../images/pexels-gino-tenacci-14520175.jpg");
+    background-size: cover;
+}
+
+main
+{
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
+    transform: translate(-50%, -20%);
+}
