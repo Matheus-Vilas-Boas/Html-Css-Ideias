@@ -201,7 +201,7 @@ button:hover
     width: 20px;
 }
 
-@media screen and (min-width: 300px)
+@media screen  and (min-width: 300px) and (max-width: 600px)
 {
     body{
         background-image: url(../images/phoneBackground.jpg);
