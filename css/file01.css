@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700;1,900&display=swap');
 
 :root
 {
@@ -15,7 +16,8 @@ body
     background-size: cover;
 }
 
-nav{
+nav
+{
     margin-top:20px ;
     margin-left: 30px;
     font-size: 1em;
@@ -24,6 +26,26 @@ nav{
     color: #ffff;
     text-align: start;
     word-spacing: 0.2em;
+}
+.border
+{
+    background-color: rgba(0, 0, 0, 0.478);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0  10px #ffff;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+h1
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.527);
+    font-size: 2em;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 24px;
 }
 .links
 {
