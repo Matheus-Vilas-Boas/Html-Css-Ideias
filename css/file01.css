@@ -201,7 +201,7 @@ button:hover
     width: 20px;
 }
 
-@media screen  and (max-width: 600px) 
+/*@media screen  and (max-width: 600px) 
 {
     body{
         background-image: url(../images/phoneBackground.jpg);
@@ -218,3 +218,4 @@ button:hover
     transform: translate(-50%);
     }
 }
+*/
