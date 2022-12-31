@@ -26,13 +26,14 @@ body
     color: rgb(255, 255, 255);
     font-style: italic;
     text-shadow: 0px 0px 35px rgb(255, 255, 255);
+    text-align: center;
     font-size: 3em;
     letter-spacing: 0.06em;
     position: relative;
     top: 40%;
     left: 50%;
     transform: translateY(-40%); 
-    transform: translateX(-30%);
+    transform: translateX(-50%);
 }
 
 .lights
