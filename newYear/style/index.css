@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    background-color: #161630;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.txt
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-shadow: 0px 0px 35px rgb(255, 255, 255);
+    font-size: 3em;
+    letter-spacing: 0.06em;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-40%); 
+    transform: translateX(-30%);
+}
+
+.lights
+{
+    position: relative;
+    display: flex;
+}
+
+.lights span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: aqua;
+    margin-right: 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 39, 39),
+    0 0 50px rgb(0, 109, 109),0 0 100px rgb(2, 255, 255);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(150s / var(--i));
+}
+
+.lights span:nth-child(even)
+{
+    background: rgb(113, 26, 185);
+    box-shadow: 0 0 10px rgb(20, 5, 32),
+    0 0 50px rgb(133, 49, 202),0 0 100px rgb(158, 91, 212);
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
